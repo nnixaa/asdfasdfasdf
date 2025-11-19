@@ -38,7 +38,7 @@ properties:
             <CardContent>
               <div className="flex items-center justify-between">
                 <p className="text-xs">You can generate any react application using third party modules</p>
-                <Button size="sm" onClick={handleConfetti} className="pl-4">
+                <Button size="sm" onClick={handleConfetti} className="pl-4 bg-red-500 hover:bg-red-600">
                   Got you!
                 </Button>
               </div>
@@ -255,6 +255,86 @@ properties:
   __UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__:
     - xl
     - xs
+  fileSystemCompiled: >
+    <script src="assets/tailwind.js"></script>
+
+    <link rel="stylesheet" href="assets/tailwind.css" />
+
+    <style></style>
+
+
+    <div class="root"></div>
+
+
+    <script>
+     window['UIB_MODULES_TO_LOAD_UIB_PROD_BUILD_COMPONENT_ID_MOCK.id']=["react", "react-dom", "react-dom/client", "react/jsx-dev-runtime", "react-hook-form", "canvas-confetti", "@radix-ui/react-slot", "class-variance-authority", "clsx", "tailwind-merge"];
+    </script>
+
+    <script id="UIB_script_UIB_PROD_BUILD_COMPONENT_ID_MOCK.id.js">(()=>{var
+    O=Object.create;var p=Object.defineProperty;var
+    U=Object.getOwnPropertyDescriptor;var P=Object.getOwnPropertyNames;var
+    A=Object.getPrototypeOf,I=Object.prototype.hasOwnProperty;var i=(e=>typeof
+    require<"u"?require:typeof Proxy<"u"?new Proxy(e,{get:(t,r)=>(typeof
+    require<"u"?require:t)[r]}):e)(function(e){if(typeof require<"u")return
+    require.apply(this,arguments);throw Error('Dynamic require of "'+e+'" is not
+    supported')});var l=(e,t)=>()=>(e&&(t=e(e=0)),t);var k=(e,t)=>{for(var r in
+    t)p(e,r,{get:t[r],enumerable:!0})},L=(e,t,r,s)=>{if(t&&typeof
+    t=="object"||typeof t=="function")for(let d of
+    P(t))!I.call(e,d)&&d!==r&&p(e,d,{get:()=>t[d],enumerable:!(s=U(t,d))||s.enumerable});return
+    e};var
+    g=(e,t,r)=>(r=e!=null?O(A(e)):{},L(t||!e||!e.__esModule?p(r,"default",{value:e,enumerable:!0}):r,e)),S=e=>L(p({},"__esModule",{value:!0}),e);var
+    a,u,n=l(()=>{a=window.UB_CUSTOM_REACT_APP_BUS["UIB_PROD_BUILD_COMPONENT_ID_MOCK.id"].bus,u=a.customConsole});function
+    c(...e){return(0,E.twMerge)((0,T.clsx)(e))}var
+    T,E,C=l(()=>{n();T=i("clsx"),E=i("tailwind-merge")});var
+    o,h,v,b,V,x,q,_=l(()=>{n();o=g(i("react"));C();h=o.forwardRef(({className:e,...t},r)=>o.createElement("div",{ref:r,className:c("rounded-lg
+    border bg-card text-card-foreground
+    shadow-sm",e),...t}));h.displayName="Card";v=o.forwardRef(({className:e,...t},r)=>o.createElement("div",{ref:r,className:c("flex
+    flex-col space-y-1.5
+    p-6",e),...t}));v.displayName="CardHeader";b=o.forwardRef(({className:e,...t},r)=>o.createElement("h3",{ref:r,className:c("text-2xl
+    font-semibold leading-none
+    tracking-tight",e),...t}));b.displayName="CardTitle";V=o.forwardRef(({className:e,...t},r)=>o.createElement("p",{ref:r,className:c("text-sm
+    text-muted-foreground",e),...t}));V.displayName="CardDescription";x=o.forwardRef(({className:e,...t},r)=>o.createElement("div",{ref:r,className:c("p-6
+    pt-0",e),...t}));x.displayName="CardContent";q=o.forwardRef(({className:e,...t},r)=>o.createElement("div",{ref:r,className:c("flex
+    items-center p-6 pt-0",e),...t}));q.displayName="CardFooter"});var
+    f,w,R,z,M,H=l(()=>{n();f=g(i("react")),w=i("@radix-ui/react-slot"),R=i("class-variance-authority");C();z=(0,R.cva)("inline-flex
+    items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm
+    font-medium transition-colors focus-visible:outline-none
+    focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none
+    disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4
+    [&_svg]:shrink-0",{variants:{variant:{default:"bg-primary
+    text-primary-foreground shadow
+    hover:bg-primary/90",destructive:"bg-destructive text-destructive-foreground
+    shadow-sm hover:bg-destructive/90",outline:"border border-input
+    bg-background shadow-sm hover:bg-accent
+    hover:text-accent-foreground",secondary:"bg-secondary
+    text-secondary-foreground shadow-sm
+    hover:bg-secondary/80",ghost:"hover:bg-accent
+    hover:text-accent-foreground",link:"text-primary underline-offset-4
+    hover:underline"},size:{default:"h-9 px-4 py-2",sm:"h-8 rounded-md px-3
+    text-xs",lg:"h-10 rounded-md px-8",icon:"h-9
+    w-9"}},defaultVariants:{variant:"default",size:"default"}}),M=f.forwardRef(({className:e,variant:t,size:r,asChild:s=!1,...d},y)=>f.createElement(s?w.Slot:"button",{className:c(z({variant:t,size:r,className:e})),ref:y,...d}));M.displayName="Button"});var
+    D={};k(D,{default:()=>F});function Z(){return
+    React.createElement(h,{className:"m-4"},React.createElement(v,null,React.createElement(b,{className:"text-2xl"},"What
+    kind of app you want to
+    create?")),React.createElement(x,null,React.createElement("div",{className:"flex
+    items-center
+    justify-between"},React.createElement("p",{className:"text-xs"},"You can
+    generate any react application using third party
+    modules"),React.createElement(M,{size:"sm",onClick:()=>{(0,B.default)()},className:"pl-4
+    bg-red-500 hover:bg-red-600"},"Got you!"))))}var B,F,N=l(()=>{"use
+    client";n();B=g(i("canvas-confetti"));_();H();F=Z});n();function K(){let
+    e=i("react"),t=(N(),S(D)).default;window.React=e;let
+    r=i("react-dom/client").createRoot,s=r(a.container.querySelector(".root"));class
+    d extends e.Component{state={hasError:!1};static
+    getDerivedStateFromError(m){return{hasError:!0}}componentDidCatch(m,j){a.handleError(m,m?.name==="ModuleLoadingError")}render(){return
+    this.state.hasError?e.createElement("div",{class:"module-error"},"Something
+    went
+    wrong."):this.props.children}}s.render(e.createElement(d,null,e.createElement(t,null)))}Zone.current.fork({name:"angular-bootstrap",onHandleError(e,t,r,s){return
+    a.handleError(s,s?.name==="ModuleLoadingError"),a.onModulesLoaded(),!1}}).runGuarded(()=>{loadModulesSequentially(window["UIB_MODULES_TO_LOAD_UIB_PROD_BUILD_COMPONENT_ID_MOCK.id"]).then(()=>{delete
+    window["UIB_MODULES_TO_LOAD_UIB_PROD_BUILD_COMPONENT_ID_MOCK.id"],a.onModulesLoaded(),K()})});})();
+
+
+    //# sourceURL=UIB_script_UIB_PROD_BUILD_COMPONENT_ID_MOCK.id.js</script>
 actions: {}
 slots:
   - id: moduleContainerSlot
